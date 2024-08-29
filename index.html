@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Connect 4</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="connect4.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+  </head>
+  <body>
+    <h1><img src="Connect_4_game_logo.png" alt="logo"></h1>
+    <hr>
+    <h3>Enjoy with your family</h3>
+    <h2>It's <span id="player">red</span>'s turn!</h2>
+    <div id="notification-container"></div>
+    <div id="connect4"></div>
+    <br />
+    <button id="restart" type="reset">New Game</button>
+    <button id="undo" type="button" title="Undo last move">Undo</button>
+
+    <p>
+      How to play: Players choose red or blue discs. They drop the discs into
+      the grid, starting in the middle or at the edge to stack their colored
+      discs upwards, horizontally, or diagonally. Use strategy to block
+      opponents while aiming to be the first player to get 4 in a row to win.
+    </p>
+  </body>
+</html>
